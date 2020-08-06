@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderBar/> should be defined and match snapshot 1`] = `
+<body>
+  <div>
+    <nav
+      class="makeStyles-root-1"
+    >
+      <a
+        class="makeStyles-barItem-2"
+        href="/absences"
+      >
+        absences
+      </a>
+      <a
+        class="makeStyles-barItem-2"
+        href="/members"
+      >
+        members
+      </a>
+    </nav>
+  </div>
+</body>
+`;

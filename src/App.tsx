@@ -13,6 +13,7 @@ function App() {
         <div>
           <HeaderBar />
           <Switch>
+            <Route exact path="/" component={AbsencesList}/>
             <Route path="/absences" component={AbsencesList}/>
             <Route path="/members" component={MembersList}/>
           </Switch>

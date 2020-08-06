@@ -2,7 +2,6 @@ import React, { FC } from 'react'
 import { ItemProps } from './types'
 import { useStyle } from './styled'
 import {
-  Avatar,
   IconButton,
   ListItem,
   ListItemAvatar,
@@ -13,16 +12,13 @@ import { Deck } from '@material-ui/icons'
 import DeleteIcon from '@material-ui/icons/Delete'
 
 export const AbsenceItem: FC<ItemProps> = ({
-  deleteItem,
   absences,
 }) => {
   const { item, itemText, itemDescText, itemDeleteAction } = useStyle()
   return (
     <ListItem className={item}>
       <ListItemAvatar>
-        <Avatar>
-          <Deck />
-        </Avatar>
+        <Deck />
       </ListItemAvatar>
       <ListItemText
         className={itemText}

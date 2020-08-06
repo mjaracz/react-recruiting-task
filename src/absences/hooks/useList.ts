@@ -2,7 +2,7 @@ import {useEffect} from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import {RootState} from '../../redux/types'
 
-export function useAbsencesList() {
+export function useList() {
   const {absences} = useSelector((state: RootState) => state)
   const dispatch = useDispatch()
 

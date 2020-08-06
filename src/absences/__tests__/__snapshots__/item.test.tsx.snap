@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AbsenceItem/> should be defined and match snapshot 1`] = `
+<body>
+  <div>
+    <li
+      class="MuiListItem-container"
+    >
+      <div
+        class="MuiListItem-root makeStyles-item-2 MuiListItem-gutters MuiListItem-secondaryAction"
+      >
+        <div
+          class="MuiListItemAvatar-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M22 9L12 2 2 9h9v13h2V9z"
+            />
+            <path
+              d="M4.14 12l-1.96.37.82 4.37V22h2l.02-4H7v4h2v-6H4.9zM19.1 16H15v6h2v-4h1.98l.02 4h2v-5.26l.82-4.37-1.96-.37z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiListItemText-root makeStyles-itemText-3 MuiListItemText-multiline"
+        >
+          <span
+            class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+          >
+            vacation
+          </span>
+          <p
+            class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+          >
+            From 2017-02-02 to 2017-02-06
+          </p>
+        </div>
+        <div
+          class="MuiListItemText-root makeStyles-itemDescText-4"
+        >
+          <span
+            class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+          >
+            User Id 5293
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiListItemSecondaryAction-root makeStyles-itemDeleteAction-5"
+      >
+        <button
+          aria-label="delete-product"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </li>
+  </div>
+</body>
+`;
