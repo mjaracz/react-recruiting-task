@@ -12,7 +12,7 @@ import {
 import { Deck } from '@material-ui/icons'
 import DeleteIcon from '@material-ui/icons/Delete'
 
-export const Item: FC<ItemProps> = ({
+export const AbsenceItem: FC<ItemProps> = ({
   deleteItem,
   absences,
 }) => {
@@ -31,7 +31,7 @@ export const Item: FC<ItemProps> = ({
       />
       <ListItemText
         className={itemDescText}
-        primary={`User ID: ${absences.userId}`}
+        primary={`User Id ${absences.userId}`}
       />
       <ListItemSecondaryAction className={itemDeleteAction}>
         <IconButton edge="end" aria-label="delete-product" >

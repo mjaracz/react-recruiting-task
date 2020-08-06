@@ -8,11 +8,7 @@ export const useStyle = makeStyles({
     flexDirection: 'column',
     flexWrap: 'wrap',
     overflowY: 'auto',
-    marginTop: 120,
-    '& .MuiList-dense': {
-      marginTop: 80,
-      paddingButton: '0 !important'
-    },
+    minHeight: 400
   },
   item: {
     backgroundColor: '#f6f6f6',
@@ -22,7 +18,7 @@ export const useStyle = makeStyles({
   },
   itemText: {
     '& .MuiListItemText-secondary': {
-      color: '#f5005780',
+      color: '#174795',
     },
   },
   itemDescText: {

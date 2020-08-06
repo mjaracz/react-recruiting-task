@@ -3,22 +3,22 @@ const initialState = {
   isLoading: false,
   error: {}
 }
-export const absencesReducer = (state = initialState, action) => {
+export const membersReducer = (state = initialState, action) => {
   switch (action.type) {
-    case 'GET_ABSENCES': {
+    case 'GET_MEMBERS': {
       return {
         ...state,
         isLoading: true
       }
     }
-    case 'FETCH_ABSENCES': {
+    case 'FETCH_MEMBERS': {
       return {
         ...state,
         isLoading: false,
         list: action.payload
       }
     }
-    case 'ABSENCES_ERROR': {
+    case 'MEMBERS_ERROR': {
       return {
         ...state,
         isLoading: false,
